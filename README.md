@@ -69,6 +69,6 @@ Application default port. ex: 5061
 
 SIP for the service account.
 
-**Certificate Thumbprint
+**Certificate Thumbprint**
 
 To get the Thumbprint run the following from the Lync Powershell Get-CsCertificate. The certificate also needs to be exported from the Lync Server and imported into the Community server(s).
