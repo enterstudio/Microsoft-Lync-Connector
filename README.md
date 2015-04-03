@@ -1,11 +1,11 @@
-# Microsoft-Lync-Connector
+# Microsoft Lync Connector
 
 Version 3.0
-Compatible with Telligent Evolution 8.5
+Compatible with Zimbra Social 8.5
 
 #### Dependencies
 
-The Microsoft Lync Connector requires Lync Server 2013. A Trusted Application needs to be setup to allow the connector to community with Lync.
+The Microsoft Lync Connector requires Lync Server 2013. A Trusted Application needs to be set up to allow the connector to communicate with Lync.
 
 **Lync 2013**
 - Microsoft.Rtc.Collaboration.dll
@@ -16,7 +16,7 @@ The Microsoft Lync Connector requires Lync Server 2013. A Trusted Application ne
 **Lync Connector**
 - Telligent.Evolution.LyncIntegration.dll
 
-#### Setup Trusted Application
+#### Set up Trusted Application
 
 ```powershell
 
@@ -45,13 +45,13 @@ PS > Enable-CsTopology
 
 #### Setup Lync Plugin
 
-To install the plugin copy the Telligent.Evolution.LyncIntegration.dll file to the Community server bin folder.
+To install the plugin, copy the Telligent.Evolution.LyncIntegration.dll file to the Zimbra Social server bin folder.
 
-In the Community navigate to the Lync Integration plugin and click Configure. Enter the required fields and save.
+In the control panel, navigate to the Lync Integration plugin and click Configure. Enter the required fields and save.
 
 **Lync Host**
 
-The FQDN of the machine where the lync is deployed.
+The FQDN of the machine where Lync is deployed.
 
 **GRUU**
 
@@ -71,6 +71,8 @@ SIP for the service account.
 
 **Certificate Thumbprint**
 
-To get the Thumbprint run the following from the Lync Powershell `Get-CsCertificate`. 
+To get the Thumbprint, run the following from the Lync Powershell:
 
-The certificate also needs to be exported from the Lync Server and imported into the Community server(s).
+`PS > Get-CsCertificate`. 
+
+The certificate also needs to be exported from the Lync Server and imported into the Zimbra Social server(s).
