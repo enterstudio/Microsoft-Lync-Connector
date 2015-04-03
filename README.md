@@ -1,7 +1,6 @@
 # Microsoft Lync Connector
 
-Version 3.0
-Compatible with Zimbra Social 8.5
+Version 3.0 compatible with Zimbra Social 8.5
 
 #### Dependencies
 
@@ -43,11 +42,11 @@ PS > Enable-CsTopology
 
 ```
 
-#### Setup Lync Plugin
+#### Install Lync Plugin
 
 To install the plugin, copy the Telligent.Evolution.LyncIntegration.dll file to the Zimbra Social server bin folder.
 
-In the control panel, navigate to the Lync Integration plugin and click Configure. Enter the required fields and save.
+In the control panel, navigate to the **Lync Integration** plugin and click Configure. Enter the required fields and save.
 
 **Lync Host**
 
