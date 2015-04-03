@@ -72,6 +72,6 @@ SIP for the service account.
 
 To get the Thumbprint, run the following from the Lync Powershell:
 
-`PS > Get-CsCertificate`. 
+`PS > Get-CsCertificate` 
 
 The certificate also needs to be exported from the Lync Server and imported into the Zimbra Social server(s).
