@@ -6,14 +6,19 @@ Version 3.0 compatible with Zimbra Social 8.5
 
 The Microsoft Lync Connector requires Lync Server 2013. A Trusted Application needs to be set up to allow the connector to communicate with Lync.
 
-**Lync 2013**
-- Microsoft.Rtc.Collaboration.dll
+**UCMA 4.0 SDK**
+- [Microsoft.Rtc.Collaboration.dll](http://www.microsoft.com/en-us/download/details.aspx?id=35463)
 
 **Zimbra Social**
 - Zimbra Social (free or commercial) 8.5 or higher
+- Telligent.DynamicConfiguration.dll
+- Telligent.Evolution.Api.dll
+- Telligent.Evolution.Components.dll
+- Telligent.Evolution.Core.dll
+- Telligent.Evolution.Rest.dll
 
 **Lync Connector**
-- Telligent.Evolution.LyncIntegration.dll
+- Telligent.Evolution.Extensions.Lync.dll
 
 #### Set up Trusted Application
 
