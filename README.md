@@ -79,4 +79,16 @@ To get the Thumbprint, run the following from the Lync Powershell:
 
 `PS > Get-CsCertificate` 
 
-The certificate also needs to be exported from the Lync Server and imported into the Zimbra Social server(s).
+The OAuthTokenIssuer certificate needs to be exported from the Lync Server and imported into the Zimbra Social server(s).
+
+Once imported the Lync Certificate needs to grant permission to the Application Pool.
+
+- Click Start and type mmc
+- Select Add/Remove Snap-in from the File menu
+- Select Certificates
+- Select Computer Account
+- Navigate to the Personal certificates
+- Right click the imported Lync certificate
+- Select All Tasks > Manage Private Keys...
+- Add the IIS Application Pool running the community
+- Click Ok
