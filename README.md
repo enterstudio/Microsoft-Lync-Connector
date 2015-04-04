@@ -49,7 +49,7 @@ PS > Enable-CsTopology
 
 #### Install Lync Plugin
 
-To install the plugin, copy the Telligent.Evolution.LyncIntegration.dll file to the Zimbra Social server bin folder.
+To install the plugin, copy the Telligent.Evolution.Extensions.Lync.dll file to the Zimbra Social server bin folder.
 
 In the control panel, navigate to the **Lync Integration** plugin and click Configure. Enter the required fields and save.
 
