@@ -6,11 +6,11 @@ Version 3.0 compatible with Zimbra Social 8.5
 
 The Microsoft Lync Connector requires Lync Server 2013. A Trusted Application needs to be set up to allow the connector to communicate with Lync.
 
-**UCMA 4.0 SDK**
+**Unified Communications Management API (UCMA) 4.0 SDK**
 - [Microsoft.Rtc.Collaboration.dll](http://www.microsoft.com/en-us/download/details.aspx?id=35463)
 
 **Zimbra Social**
-- Zimbra Social (free or commercial) 8.5 or higher
+- Zimbra Social (free or commercial) version 8.5 or higher
 - Telligent.DynamicConfiguration.dll
 - Telligent.Evolution.Api.dll
 - Telligent.Evolution.Components.dll
@@ -20,7 +20,7 @@ The Microsoft Lync Connector requires Lync Server 2013. A Trusted Application ne
 **Lync Connector**
 - Telligent.Evolution.Extensions.Lync.dll
 
-#### Set up Trusted Application
+#### How to set up Trusted Application
 
 ```powershell
 
@@ -47,24 +47,28 @@ PS > Enable-CsTopology
 
 ```
 
-#### Install Lync Plugin
+#### How to install the Microsoft Lync Connector
 
-To install the plugin, copy the following files to the Zimbra Social server bin folder:
+To install the Microsoft Lync Connector for Zimbra Social, copy the following files to the Zimbra Social server \bin folder:
 
 - Telligent.Evolution.Extensions.Lync.dll
 - Microsoft.Rtc.Collaboration.dll
 
 The UCMA SDK library file is usually located in C:\Program Files\Microsoft UCMA 4.0\SDK\Core\Bin.
 
-In the control panel, navigate to the **Lync Integration** plugin and click Configure. Enter the required fields and click Save.
+Once the files are installed in the Zimbra Social \bin directory, the Lync Connector will be available as a plug-in within the Zimbra Social Control Panel.
+
+#### How to configure the Microsoft Lync Connector
+
+In the Zimbra Social Control Panel, navigate to the **Lync Integration** plugin and click Configure. Enter the required fields and click Save.
 
 **Lync Host**
 
-The FQDN of the machine where Lync is deployed.
+The fully qualified domain name (FQDN) of the server where Microsoft Lync Server 2013 is deployed.
 
 **GRUU**
 
-The trusted GRUU for the application.
+The trusted [Globally Routable User-Agent URI](http://blog.greenl.ee/2011/11/16/gruu/) (GRUU) for the application.
 
 **Trusted Port**
 
@@ -97,3 +101,15 @@ Once imported the Application Pool account needs permission to the Lync Certific
 - Select All Tasks > Manage Private Keys...
 - Add the IIS Application Pool account running the community
 - Click Ok
+
+####Where is the documentation?
+Please refer to the [wiki section](https://github.com/Telligent/Microsoft-Lync-Connector/wiki/) of this repository.
+
+####How do I report a bug?
+You can use the [issues section](https://github.com/Telligent/Microsoft-Lync-Connector/issues/) of this repository to report any issues.
+
+####Where can I ask questions?
+Please visit our [developer community](http://community.zimbra.com/developers/f) to ask questions, get answers, collaborate and connect with other developers. Plus, give us feedback there so we can continue to improve these tools for you.
+
+####Can I contribute?
+Yes, we will have more details soon on how you can contribute.
