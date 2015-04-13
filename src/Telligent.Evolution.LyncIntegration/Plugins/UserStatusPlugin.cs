@@ -291,7 +291,7 @@ namespace Telligent.Evolution.Extensions.Lync.Plugins
 			{
 				var t = new Translation("en-us");
 				t.Set("processing", "...");
-				t.Set("recieving", "Recieving...");
+                t.Set("recieving", "Connecting to Lync...");
 				t.Set("away", "Away");
 				t.Set("be_right_back", "Be Right Back");
 				t.Set("busy", "Busy");
