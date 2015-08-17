@@ -1,6 +1,6 @@
 # Microsoft Lync Connector
 
-Version 3.0 compatible with Zimbra Social 8.5
+Version 3.0 compatible with Telligent Community 8.5
 
 #### Dependencies
 
@@ -9,8 +9,8 @@ The Microsoft Lync Connector requires Lync Server 2013. A Trusted Application ne
 **Unified Communications Management API (UCMA) 4.0 SDK**
 - [Microsoft.Rtc.Collaboration.dll](http://www.microsoft.com/en-us/download/details.aspx?id=35463)
 
-**Zimbra Social**
-- Zimbra Social (free or commercial) version 8.5 or higher
+**Telligent Community**
+- Telligent Community (free or commercial) version 8.5 or higher
 - Telligent.DynamicConfiguration.dll
 - Telligent.Evolution.Api.dll
 - Telligent.Evolution.Components.dll
@@ -56,11 +56,11 @@ To install the Microsoft Lync Connector for Zimbra Social, copy the following fi
 
 The UCMA SDK library file is usually located in C:\Program Files\Microsoft UCMA 4.0\SDK\Core\Bin.
 
-Once the files are installed in the Zimbra Social \bin directory, the Lync Connector will be available as a plug-in within the Zimbra Social Control Panel.
+Once the files are installed in the Zimbra Social \bin directory, the Lync Connector will be available as a plug-in within the Telligent Community Control Panel.
 
 #### How to configure the Microsoft Lync Connector
 
-In the Zimbra Social Control Panel, navigate to the **Lync Integration** plugin and click Configure. Enter the required fields and click Save.
+In the Telligent Community Control Panel, navigate to the **Lync Integration** plugin and click Configure. Enter the required fields and click Save.
 
 **Lync Host**
 
@@ -109,7 +109,7 @@ Please refer to the [wiki section](https://github.com/Telligent/Microsoft-Lync-C
 You can use the [issues section](https://github.com/Telligent/Microsoft-Lync-Connector/issues/) of this repository to report any issues.
 
 ####Where can I ask questions?
-Please visit our [developer community](http://community.zimbra.com/developers/f) to ask questions, get answers, collaborate and connect with other developers. Plus, give us feedback there so we can continue to improve these tools for you.
+Please visit our [developer community](http://community.telligent.com/community/f/554) to ask questions, get answers, collaborate and connect with other developers. Plus, give us feedback there so we can continue to improve these tools for you.
 
 ####Can I contribute?
 Yes, we will have more details soon on how you can contribute.
