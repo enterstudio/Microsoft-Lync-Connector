@@ -88,7 +88,7 @@ To get the Thumbprint, run the following from the Lync Powershell:
 
 `PS > Get-CsCertificate` 
 
-The OAuthTokenIssuer certificate needs to be exported from the Lync Server and imported into the Zimbra Social server(s).
+The OAuthTokenIssuer certificate needs to be exported from the Lync Server and imported into the Telligent Community server(s).
 
 Once imported the Application Pool account needs permission to the Lync Certificate.
 
