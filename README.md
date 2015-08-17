@@ -49,14 +49,14 @@ PS > Enable-CsTopology
 
 #### How to install the Microsoft Lync Connector
 
-To install the Microsoft Lync Connector for Zimbra Social, copy the following files to the Zimbra Social server \bin folder:
+To install the Microsoft Lync Connector for Telligent Community, copy the following files to the Telligent Community server \bin folder:
 
 - Telligent.Evolution.Extensions.Lync.dll
 - Microsoft.Rtc.Collaboration.dll
 
 The UCMA SDK library file is usually located in C:\Program Files\Microsoft UCMA 4.0\SDK\Core\Bin.
 
-Once the files are installed in the Zimbra Social \bin directory, the Lync Connector will be available as a plug-in within the Telligent Community Control Panel.
+Once the files are installed in the Telligent Community \bin directory, the Lync Connector will be available as a plug-in within the Telligent Community Control Panel.
 
 #### How to configure the Microsoft Lync Connector
 
